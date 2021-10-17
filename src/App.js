@@ -1,6 +1,20 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import Navbar from "./components/Navbar";
+import AboutMe from "./components/AboutMe";
+import MyWork from "./components/MyWork";
+import ContactMe from "./components/ContactMe";
+import Resume from "./components/Resume"
 
-const App = () => <PortfolioContainer />;
+function App() {
+    return (
+      <div>
+        <Navbar />
+        <AboutMe />
+        <MyWork />
+        <ContactMe />
+        <Resume />
+      </div>
+    );
+  }
 
 export default App;

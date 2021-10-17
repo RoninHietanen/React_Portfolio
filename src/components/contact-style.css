@@ -1,0 +1,14 @@
+.contact-title {
+    line-height: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-styling {
+    text-decoration: none;
+    color: black;
+}
+
+.label {
+    font-weight: bolder;
+}
