@@ -8,7 +8,7 @@ function AboutMe () {
             <h3 className="title-about" id="about-me">About Me</h3>
             
             <div className="image-wrap">
-                <img className="about-image" src={image} alt="My Profile Picture" />
+                <image className="about-image" src={image} alt="My Profile Picture" />
             </div>
     
             <div className="content">

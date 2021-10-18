@@ -5,7 +5,7 @@ function Navbar () {
     return (
         <nav className="navbar">
             <div className="navbar-title">
-                <a>Portfolio: Ronin Hietanen</a>
+                <h1>Portfolio: Ronin Hietanen</h1>
             </div>
 
             <div className="navbar-items">
