@@ -4,8 +4,8 @@ import './style.css';
 function Navbar () {
     return (
         <nav className="navbar">
-            <div className="navbar-title">
-                <h1>Portfolio: Ronin Hietanen</h1>
+            <div >
+                <h1 className="navbar-title">Portfolio: Ronin Hietanen</h1>
             </div>
 
             <div className="navbar-items">

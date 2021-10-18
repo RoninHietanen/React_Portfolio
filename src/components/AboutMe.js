@@ -1,6 +1,6 @@
 import React from 'react';
 import './about-style.css';
-import image from './assets/images/pfp.jpg';
+import pfp from './assets/images/pfp.jpg';
 
 function AboutMe () {
     return (
@@ -8,7 +8,7 @@ function AboutMe () {
             <h3 className="title-about" id="about-me">About Me</h3>
             
             <div className="image-wrap">
-                <image className="about-image" src={image} alt="My Profile Picture" />
+                <img className="about-image" src={pfp} alt="My Profile Picture" />
             </div>
     
             <div className="content">
